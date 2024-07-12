@@ -58,6 +58,7 @@ body {
     z-index: 99;
     width: 100%;
     overflow: hidden;
+    height: 50px;
 }
 
 .fullContact {
@@ -73,13 +74,8 @@ body {
     align-items: center;
 }
 
-.topUberEats {
-    height: 15px;
-}
-
 .rightBar {
-    height: 4px;
-    background-color: blueviolet;
+    height: 50px;
 }
 
 .listedImages {
