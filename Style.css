@@ -2,15 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
     height: 100vh;
-    width: 1400px;
+}
+
+.classHeader{
+    margin-bottom: 10px;
 }
 
 .container {
     overflow: hidden;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .image {
@@ -18,11 +27,12 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    overflow: hidden;
 }
 
 .mainImage {
-    height: 700px;
     width: 100%;
+    height: 100%;
 }
 
 .inputContainer{
@@ -46,10 +56,89 @@ body {
     left: 0;
     background-color: white;
     z-index: 99;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
-    padding: 20px 30px;
+    overflow: hidden;
+}
+
+.fullContact {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    justify-content: space-between;
+}
+
+.leftBar {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.topUberEats {
+    height: 15px;
+}
+
+.rightBar {
+    height: 4px;
+    background-color: blueviolet;
+}
+
+.listedImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 800px;
+}
+
+.listedImageContainer {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.Container1840 {
+    width: 1840px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.topPart{
+    padding: 50px;
+   }
+
+.map {
+    width: 1888px;
+    height: 360px;
+    overflow: hidden;
+    margin: 50px;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.bottomPart {
+    margin-top: 100px;
+    overflow: hidden;
+} 
+
+.appStoreLogo {
+    width: auto;
+    height: 40px;
+}
+
+.download {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.footerEats {
+    display: flex;
+    justify-content: flex-end;
 }
 
