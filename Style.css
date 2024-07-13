@@ -38,12 +38,17 @@
 }
 
 .mainImageTitle {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: UberMove, sans-serif;
     padding-left: 50px;
 }
 
+.textbox {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .navBar{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: white;
@@ -106,6 +111,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     column-gap: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .imageListedItem {
