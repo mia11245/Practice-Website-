@@ -22,6 +22,7 @@
 
 .mainImage {
     width: 100%;
+    object-fit: cover;
 }
 
 .inputContainer{
@@ -162,3 +163,13 @@
     justify-content: flex-end;
 }
 
+@media (max-width:640px) {
+
+    .Container1840 {
+        max-width: 100%;
+    }
+
+     .listedImages {
+        grid-template-columns: 1fr;
+     }
+}
