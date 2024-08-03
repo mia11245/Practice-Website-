@@ -119,7 +119,7 @@
 }
 
 .Container1840 {
-    width: 1840px;
+    width: 1400px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -139,6 +139,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
+}
+
+.uberEatsStates {
+    margin: 4px 0;
+    text-transform: capitalize;
 }
 
 .bottomPart {
@@ -166,10 +171,17 @@
 @media (max-width:640px) {
 
     .Container1840 {
-        max-width: 100%;
+        width: 100%;
+        margin: 0;
     }
 
      .listedImages {
         grid-template-columns: 1fr;
      }
+
+     .footerGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
 }
