@@ -160,6 +160,16 @@ img{
     height: 40px;
 }
 
+.appleStoreLogo{
+    width: auto;
+    height: 40px;
+}
+
+.logoOfUberEats {
+    width: auto;
+    height: 40px;
+}
+
 .download {
     display: flex;
     align-items: flex-end;
@@ -200,4 +210,5 @@ img{
     margin-top: 5px;
     overflow: hidden;
 } 
+
 }
