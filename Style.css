@@ -199,16 +199,28 @@ img{
         column-gap: 10px;
     }
 
-    .map {
-    width: 300px;
-    height: fit-content;
-    overflow: hidden;
-    margin: 5px auto;
-   }
+     .map {
+        width: 300px;
+        height: fit-content;
+        overflow: hidden;
+        margin: 15px auto;
+    }
 
-   .bottomPart {
-    margin-top: 5px;
-    overflow: hidden;
-} 
+     .bottomPart {
+            margin-top: 5px;
+            overflow: hidden;
+    } 
+
+     .mainImage {
+            overflow: hidden;
+            height: 900px;
+    }
+
+    .footerEats {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+
+    }
 
 }
