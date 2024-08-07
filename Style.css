@@ -15,9 +15,10 @@ img{
     overflow: hidden;
 }
 
+
+
 .container {
     overflow: hidden;
-    background-color: aquamarine;
 }
 
 .image {
@@ -48,6 +49,10 @@ img{
 
 .textbox {
     margin-right: 115px;
+}
+
+.secondTextbox {
+    display: flex;
 }
 
 .navBar{
@@ -180,6 +185,7 @@ img{
 .footerEats {
     display: flex;
     justify-content: flex-end;
+    gap: 15px;
 }
 
 @media (max-width:640px) {
