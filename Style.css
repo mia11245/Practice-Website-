@@ -212,11 +212,28 @@ img{
     margin-top: 50px;
 }
 
-.footerEats {
-    display: flex;
-    justify-content: flex-end;
-    gap: 15px;
+.footerbottom {
+    margin: 25px 0px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
+
+.footerEats {
+    margin: 30px 0px;
+}
+
+.ResturantsNearMe {
+    margin: 30px 0px;
+}
+
+.icons {
+    margin: 30px 0px;   
+}
+
+.BottomPartOfFooter {
+    margin: 30px 0px;
+}
+
 
 @media (max-width:640px) {
 
@@ -250,13 +267,6 @@ img{
      .mainImage {
             overflow: hidden;
             height: 900px;
-    }
-
-    .footerEats {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-
     }
     .ContainerFooter{
         margin-left: 20px;
