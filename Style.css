@@ -1,274 +1,275 @@
-*,*::after,*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
-.classHeader{
-    margin-bottom: 10px;
-    height: 700px;
-    overflow: hidden;
+.classHeader {
+  margin-bottom: 10px;
+  height: 700px;
+  overflow: hidden;
 }
 
 .container {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .image {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .mainImage {
-    width: 100%;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
-
-.inputContainer{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    flex-direction: column;
-    height: 700px;
+.inputContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-direction: column;
+  height: 700px;
 }
 
 .mainImageTitle {
-    font-family: UberMove, sans-serif;
-    margin-bottom: 20px;
-    font-size: 36px;
-    font-weight: 700;
+  font-family: UberMove, sans-serif;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .textbox {
-    margin-right: 115px;
-    padding-left: 20px;
-    border: none;   
-    height: 56px;
-    width: 100%;
+  margin-right: 115px;
+  padding-left: 20px;
+  border: none;
+  height: 56px;
+  width: 100%;
 }
 
 .secondTextbox {
-    display: flex;
-    padding-left: 20px;
-    border:none; 
-    height: 56px;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  display: flex;
+  padding-left: 20px;
+  border: none;
+  height: 56px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .SearchHere {
-    border: none; 
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    width: 100%;
-    height: 56px;
-    font-size: 15px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 56px;
+  font-size: 15px;
 }
 
-.navBar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: white;
-    z-index: 99;
-    width: 100%;
-    overflow: hidden;
-    height: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 99;
+  width: 100%;
+  overflow: hidden;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .fullContact {
-    display: flex;
-    align-items: center;
-    column-gap: 15px;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  justify-content: space-between;
 }
 
 .leftBar {
-    display: flex;
-    column-gap: 25px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  column-gap: 25px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .topUberEats {
-    height: 16px;
+  height: 16px;
 }
 
 .rightBar {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    column-gap: 25px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
 }
 
 .btn {
-    padding: 10px 15px;
-    border-radius: 20px;
-    border: none;
-    font-size: 14px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px, rgba(0, 0, 0, 0.04) 0px 4px 4px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px, rgba(0, 0, 0, 0.04) 0px 4px 4px;
 }
 
 .btnLogIn {
-    background-color: white;
+  background-color: white;
 }
 
 .btnSignIn {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .listedImagesContainer {
-    overflow: hidden;
-    margin-top: 15px;
+  overflow: hidden;
+  margin-top: 15px;
 }
 
 .listedImages {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    column-gap: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  column-gap: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-
-
 .imageListedItem {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .Container1840 {
-    width: 1400px;
-    margin: 0 auto;
-    overflow: hidden;
+  width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-
-
-.topPart{
-    margin: 50px;
-   }
+.topPart {
+  margin: 50px;
+}
 
 .map {
-    width: 1200px;
-    height: 360px;
-    overflow: hidden;
-    margin: 50px;
+  width: 1200px;
+  height: 360px;
+  overflow: hidden;
+  margin: 50px;
 }
 
 .footerGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
 }
 
 .uberEatsStates {
-    margin: 4px 0;
-    text-transform: capitalize;
+  margin: 4px 0;
+  text-transform: capitalize;
 }
 
 .bottomPart {
-    margin-top: 100px;
-    overflow: hidden;
-} 
-
-.appStoreLogo {
-    width: auto;
-    height: 40px;
+  margin-top: 100px;
+  overflow: hidden;
 }
 
-.appleStoreLogo{
-    width: auto;
-    height: 40px;
+.appStoreLogo {
+  width: auto;
+  height: 40px;
+}
+
+.appleStoreLogo {
+  width: auto;
+  height: 40px;
 }
 
 .logoOfUberEats {
-    width: 132px;
-    height: 24px;
-    margin-top: 100px;
-    margin-bottom: 20px;
+  width: 132px;
+  height: 24px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .download {
-    display: flex;
-    align-items: flex-end;
-    gap: 15px;
-    margin-top: 50px;
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+  margin-top: 50px;
 }
 
 .footerbottom {
-    margin: 25px 0px;
-    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+  margin: 25px 0px;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 .footerEats {
-    margin: 30px 0px;
+  margin: 30px 0px;
 }
 
 .ResturantsNearMe {
-    margin: 30px 0px;
+  margin: 30px 0px;
 }
 
 .icons {
-    margin: 30px 0px;   
+  margin: 30px 0px;
+  /*     display: flex;
+    gap: 20px; */
+}
+
+.icons svg {
+  margin: 0px 15px;
 }
 
 .BottomPartOfFooter {
-    margin: 30px 0px;
+  margin: 30px 0px;
 }
 
+@media (max-width: 640px) {
+  .Container1840 {
+    width: 100%;
+    margin: 0;
+  }
 
-@media (max-width:640px) {
+  .listedImages {
+    grid-template-columns: 1fr;
+  }
 
-    .Container1840 {
-        width: 100%;
-        margin: 0;
-    }
+  .footerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
 
-     .listedImages {
-        grid-template-columns: 1fr;
-     }
+  .map {
+    width: 300px;
+    height: fit-content;
+    overflow: hidden;
+    margin: 15px auto;
+  }
 
-     .footerGrid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
-    }
+  .bottomPart {
+    margin-top: 5px;
+    overflow: hidden;
+  }
 
-     .map {
-        width: 300px;
-        height: fit-content;
-        overflow: hidden;
-        margin: 15px auto;
-    }
-
-     .bottomPart {
-            margin-top: 5px;
-            overflow: hidden;
-    } 
-
-     .mainImage {
-            overflow: hidden;
-            height: 900px;
-    }
-    .ContainerFooter{
-        margin-left: 20px;
-    }
+  .mainImage {
+    overflow: hidden;
+    height: 900px;
+  }
+  .ContainerFooter {
+    margin-left: 20px;
+  }
 }
