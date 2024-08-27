@@ -84,7 +84,7 @@ img {
   left: 0;
   background-color: white;
   z-index: 99;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
   height: 50px;
   padding-left: 10px;
