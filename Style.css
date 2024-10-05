@@ -187,6 +187,7 @@ img {
 .bottomPart {
   margin-top: 100px;
   overflow: hidden;
+  padding: 30px;
 }
 
 .appStoreLogo {
