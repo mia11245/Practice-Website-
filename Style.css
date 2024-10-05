@@ -43,6 +43,12 @@ img {
   height: 700px;
 }
 
+.formContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
 .mainImageTitle {
   font-family: UberMove, sans-serif;
   margin-bottom: 20px;
@@ -64,7 +70,6 @@ img {
   border: none;
   height: 56px;
   width: 100%;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -84,7 +89,7 @@ img {
   left: 0;
   background-color: white;
   z-index: 99;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   height: 50px;
   padding-left: 10px;
@@ -153,7 +158,6 @@ img {
 }
 
 .Container1840 {
-  width: 1400px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -241,14 +245,17 @@ img {
     margin: 0;
   }
 
-  .listedImages {
-    grid-template-columns: 1fr;
-  }
-
   .footerGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .formContainer {
+    display: block;
+  }
+
+  .textbox {
+    margin-bottom: 10px;
   }
 
   .map {
