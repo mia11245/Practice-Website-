@@ -194,7 +194,7 @@ img {
 .bottomPart {
   margin-top: 100px;
   overflow: hidden;
-  padding: 30px;
+  padding: 20px;
 }
 
 .appStoreLogo {
@@ -333,6 +333,6 @@ img {
   }
 
   .footerCopyRight {
-    display: block;
+    text-align: left;
   }
 }
