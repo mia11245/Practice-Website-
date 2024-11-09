@@ -167,6 +167,10 @@ img {
   justify-content: space-between;
 }
 
+.ContainerFooter {
+  padding-left: 20px;
+}
+
 .map {
   width: 100%;
   height: 360px;
@@ -178,6 +182,11 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footerGrid {
